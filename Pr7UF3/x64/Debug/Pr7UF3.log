@@ -1,0 +1,13 @@
+﻿  Pr7UF3.cpp
+Pr7UF3.obj : error LNK2001: símbolo externo "public: virtual char __cdecl Vacio::mostrar(void)const " (?mostrar@Vacio@@UEBADXZ) sin resolver
+Pr7UF3.obj : error LNK2019: símbolo externo "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Personaje::getNombre(void)const " (?getNombre@Personaje@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2019: símbolo externo "public: int __cdecl Personaje::getPosicionX(void)const " (?getPosicionX@Personaje@@QEBAHXZ) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2019: símbolo externo "public: int __cdecl Personaje::getPosicionY(void)const " (?getPosicionY@Personaje@@QEBAHXZ) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2019: símbolo externo "public: void __cdecl Personaje::mover(int,int)" (?mover@Personaje@@QEAAXHH@Z) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2019: símbolo externo "public: __cdecl Jugador::Jugador(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,int)" (??0Jugador@@QEAA@HHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2019: símbolo externo "public: __cdecl Enemigo::Enemigo(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,int)" (??0Enemigo@@QEAA@HHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2019: símbolo externo "public: __cdecl EnemigoFinal::EnemigoFinal(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,int)" (??0EnemigoFinal@@QEAA@HHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2001: símbolo externo "public: virtual char __cdecl Salida::mostrar(void)const " (?mostrar@Salida@@UEBADXZ) sin resolver
+Pr7UF3.obj : error LNK2019: símbolo externo "void __cdecl imprimirNivel(class Casilla * (* const)[6])" (?imprimirNivel@@YAXQEAY05PEAVCasilla@@@Z) sin resolver al que se hace referencia en la función main
+Pr7UF3.obj : error LNK2019: símbolo externo "bool __cdecl batalla(class Personaje &,class Personaje &)" (?batalla@@YA_NAEAVPersonaje@@0@Z) sin resolver al que se hace referencia en la función main
+F:\M5\Pr7UF3\Pr7UF3\x64\Debug\Pr7UF3.exe : fatal error LNK1120: 11 externos sin resolver
